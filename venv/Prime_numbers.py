@@ -8,7 +8,7 @@ def primes(N):
 	# creating an empty list for the primes
 	primes = []
 
-	# loop from 2 to 1000 as 0 and 1 are niether a prime nor composite
+	# loop from 2 to 15000 as 0 and 1 are niether a prime nor composite
 	for i in range(2, 15000):
 
 		# looping through the numbers i can be divided by
