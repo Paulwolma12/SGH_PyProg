@@ -5,9 +5,10 @@
 N=int(input("How many primes do you want? "))
 
 def primes(N):
+	# creating an empty list for the primes
 	primes = []
 
-	# loop from 2 to 1000 as 0 and 1 because niether are prime nor composite
+	# loop from 2 to 1000 as 0 and 1 are niether a prime nor composite
 	for i in range(2, 15000):
 
 		# looping through the numbers i can be divided by
